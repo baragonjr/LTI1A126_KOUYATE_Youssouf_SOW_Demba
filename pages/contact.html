@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez la Fédération Malienne de Football - Supporters, médias, partenariats">
+    <meta name="keywords" content="contact Aigles du Mali, Fédération Malienne de Football, supporters Mali">
+    <meta name="author" content="Fédération Malienne de Football">
+    <title>Contact - Aigles du Mali</title>
+    <link rel="icon" type="image/x-icon" href="../Site web/assets/favicon.ico">
+    <link rel="stylesheet" href="../doc_css/index.css">
+        <link rel="stylesheet" href="../doc_css/contact.css">
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="../index.html" class="logo">
+                    <span class="logo-icon">
+                        <i class="fas fa-eagle" style="color: #14b8a6; font-size: 1.8rem;"></i>
+                    </span>
+                    <span class="logo-text">AIGLES DU MALI</span>
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="../pages/nos_equipe.html" class="nav-link">Équipe Nationale</a></li>
+                    <li><a href="../pages/activites.html" class="nav-link">Actualités</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contactez-nous</h1>
+            <p class="page-subtitle">Une question ? Une suggestion ? L'équipe des Aigles du Mali est à votre écoute</p>
+        </div>
+    </section>
+    <section class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <h2>Envoyez-nous un message</h2>
+                        <p>Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais</p>
+                    </div>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Nom complet *</label>
+                                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email *</label>
+                                <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone"><i class="fas fa-phone"></i> Téléphone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+223 XX XX XX XX">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject"><i class="fas fa-tag"></i> Sujet *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Choisissez un sujet</option>
+                                    <option value="supporters">Supporters & Fans</option>
+                                    <option value="media">Presse & Médias</option>
+                                    <option value="partenariat">Partenariat & Sponsoring</option>
+                                    <option value="billetterie">Question sur la billetterie</option>
+                                    <option value="academie">Académie & Jeunes</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment"></i> Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Votre message..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Je souhaite recevoir la newsletter des Aigles du Mali</label>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="rgpd" name="rgpd" required>
+                            <label for="rgpd">J'accepte la politique de confidentialité et le traitement de mes données *</label>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Envoyer le message
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info-wrapper">
+                    <div class="info-card">
+                        <h3>Coordonnées</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Adresse</h4>
+                                <p>Fédération Malienne de Football<br>
+                                Stade du 26 Mars, Bamako<br>
+                                BP 1234, Mali</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Téléphone</h4>
+                                <p><a href="tel:+22320223344">+223 20 22 33 44</a><br>
+                                <span class="info-note">Lun-Ven: 8h00 - 17h00</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p><a href="mailto:contact@aiglesdumali.ml">contact@aiglesdumali.ml</a><br>
+                                <a href="mailto:presse@aiglesdumali.ml">presse@aiglesdumali.ml</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-divider"></div>
+                        
+                        <h3>Contacts spécifiques</h3>
+                        
+                        <div class="contact-person">
+                            <div class="person-role">
+                                <i class="fas fa-newspaper"></i>
+                                <span>Service Presse</span>
+                            </div>
+                            <a href="mailto:presse@aiglesdumali.ml" class="person-email">presse@aiglesdumali.ml</a>
+                            <p class="person-phone">+223 20 22 33 45</p>
+                        </div>
+                        
+                        <div class="contact-person">
+                            <div class="person-role">
+                                <i class="fas fa-handshake"></i>
+                                <span>Partenariats</span>
+                            </div>
+                            <a href="mailto:partenariat@aiglesdumali.ml" class="person-email">partenariat@aiglesdumali.ml</a>
+                            <p class="person-phone">+223 20 22 33 46</p>
+                        </div>
+                        
+                        <div class="contact-person">
+                            <div class="person-role">
+                                <i class="fas fa-ticket-alt"></i>
+                                <span>Billetterie</span>
+                            </div>
+                            <a href="mailto:billetterie@aiglesdumali.ml" class="person-email">billetterie@aiglesdumali.ml</a>
+                            <p class="person-phone">+223 20 22 33 47</p>
+                        </div>
+                        
+                        <div class="social-links-contact">
+                            <h4>Suivez les Aigles</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map-section">
+        <div class="container">
+            <div class="map-header">
+                <h2>Où nous trouver</h2>
+                <p>Stade du 26 Mars - Siège de la Fédération Malienne de Football</p>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.943209878634!2d-8.0023!3d12.6392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDM4JzIxLjEiTiA4McKwMDAnMDguMyJX!5e0!3m2!1sfr!2sml!4v1234567890" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section class="faq-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Questions fréquentes</h2>
+                <p class="section-subtitle">Retrouvez les réponses aux questions les plus courantes</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment acheter des billets pour les matchs ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Les billets sont disponibles en ligne sur notre billetterie officielle et aux guichets du stade 48h avant chaque match. Les supporters membres du Fan Club bénéficient d'un tarif préférentiel.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment devenir partenaire des Aigles ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Contactez notre service partenariat à l'adresse partenariat@aiglesdumali.ml pour recevoir notre dossier de sponsoring et discuter des opportunités de collaboration.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment rejoindre le Fan Club officiel ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>L'inscription au Fan Club se fait en ligne sur notre site. Les membres bénéficient d'avantages exclusifs : réductions sur les billets, rencontres avec les joueurs, et goodies officiels.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment contacter un joueur ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Pour des raisons de confidentialité, nous ne transmettons pas les demandes individuelles aux joueurs. Vous pouvez leur envoyer un message via nos réseaux sociaux ou lors des séances de dédicaces organisées après certains matchs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Rejoignez la communauté des Aigles</h2>
+                <p>Restez informés des actualités, des matchs et des événements</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">
+                        <i class="fab fa-whatsapp"></i> Groupe WhatsApp
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-lg">
+                        <i class="fab fa-telegram"></i> Chaîne Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-eagle"></i></span>
+                        <span class="logo-text">AIGLES DU MALI</span>
+                    </div>
+                    <p>Site officiel de l'équipe nationale de football du Mali</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="../pages/nos_equipe.html">Équipe</a></li>
+               
+                        <li><a href="../pages/actualites.html">Actualités</a></li>
+                     
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Informations</h4>
+                    <ul>
+               
+                        <li><a href="../pages/contact.html">Contact</a></li>
+                
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Fédération Malienne de Football, Bamako</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>ykouyate02@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+221 77 443 57 52</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fédération Malienne de Football. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">CGU</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
